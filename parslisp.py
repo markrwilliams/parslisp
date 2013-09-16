@@ -58,7 +58,7 @@ class Function(namedtuple('Function', 'args env body')):
 
     def invoke(self, args):
         env = self.env.copy()
-        env.update({name: arg for name, arg in zip(self.args, args)})
+        env.update(zip(self.args, args))
         return make_evaluator(env)(self.body).eval()
 
 
