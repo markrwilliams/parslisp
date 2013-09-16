@@ -1,5 +1,5 @@
 # parslisp
-## A Lisp that's mostly Parsley
+_A Lisp that's mostly Parsley_
 
 [OMeta](http://www.tinlizzie.org/ometa/) extends [Parsing Expression Grammars](http://en.wikipedia.org/wiki/Parsing_expression_grammar) to match arbitrary data types.  But what does that mean?
 
